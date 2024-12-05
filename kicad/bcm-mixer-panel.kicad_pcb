@@ -103,7 +103,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../gerbers/panel/")
 		)
 	)
 	(net 0 "")
@@ -753,7 +753,7 @@
 			(at 0 -4.318 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ad8b9a32-5f5f-40a0-987a-107a2ed38931")
+			(uuid "37aec524-751c-40b8-8223-0d005522aeb6")
 			(effects
 				(font
 					(size 1 1)
@@ -765,7 +765,7 @@
 			(at 0 4.318 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e501d1c9-80b1-43d9-8cb7-a11b5e283b30")
+			(uuid "f8526c64-600c-4332-850f-5f558a35a9ad")
 			(effects
 				(font
 					(size 1 1)
@@ -818,7 +818,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9506c918-a1ca-41a9-8bce-3470878d681e")
+			(uuid "5f4bffad-a803-40b3-a70a-941a202ace32")
 		)
 		(fp_line
 			(start -1.524 3.45)
@@ -828,7 +828,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b668df7-2385-4ca6-90a1-0f5b29c32a5c")
+			(uuid "9262c63d-e4b7-4218-a67a-0596b08dc487")
 		)
 		(fp_arc
 			(start -1.524 3.45)
@@ -839,7 +839,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "06757950-35e1-4e8b-8c92-aeaee3e02f9a")
+			(uuid "256ac1c4-a37e-4f9d-bcb4-3cdf3546b79e")
 		)
 		(fp_arc
 			(start 1.524 -3.45)
@@ -850,13 +850,13 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f12080b4-b843-47cc-8cc6-f9f2b8b1ac90")
+			(uuid "6f4bb766-5277-457f-a5a8-c8d9c0ada054")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -4.318 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46e6ec6e-5720-4437-8972-a9a195eb4745")
+			(uuid "a3bd2577-1f59-42c6-8675-21b002c5f04f")
 			(effects
 				(font
 					(size 1 1)
@@ -870,7 +870,7 @@
 			(drill oval 6.3 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1e833062-0617-4ced-ae5e-1e3cac6a57b1")
+			(uuid "46a847ac-4350-404c-a018-e9863b72a14b")
 		)
 	)
 	(footprint "Rumblesan_Panel_Hardware:PanelHole_3.2mm_M3_elongated"
@@ -883,7 +883,7 @@
 			(at 0 -4.318 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ad8b9a32-5f5f-40a0-987a-107a2ed38931")
+			(uuid "dc034f31-e42c-4163-9e0f-44164fd8b181")
 			(effects
 				(font
 					(size 1 1)
@@ -895,7 +895,7 @@
 			(at 0 4.318 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e501d1c9-80b1-43d9-8cb7-a11b5e283b30")
+			(uuid "9a68f6d4-64ca-4656-96c8-614408c8e633")
 			(effects
 				(font
 					(size 1 1)
@@ -948,7 +948,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9506c918-a1ca-41a9-8bce-3470878d681e")
+			(uuid "c1792d67-92d2-4064-ba3b-77d0eacaa95e")
 		)
 		(fp_line
 			(start -1.524 3.45)
@@ -958,7 +958,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b668df7-2385-4ca6-90a1-0f5b29c32a5c")
+			(uuid "87d35ed1-eab0-4cb3-bcd8-1aa7936d0c67")
 		)
 		(fp_arc
 			(start -1.524 3.45)
@@ -969,7 +969,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "06757950-35e1-4e8b-8c92-aeaee3e02f9a")
+			(uuid "3cc42ff2-0cab-4f38-bd5a-2adc59ee8cdc")
 		)
 		(fp_arc
 			(start 1.524 -3.45)
@@ -980,13 +980,13 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f12080b4-b843-47cc-8cc6-f9f2b8b1ac90")
+			(uuid "bce3cd92-0fef-4a09-867d-392619da7129")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -4.318 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46e6ec6e-5720-4437-8972-a9a195eb4745")
+			(uuid "05b3115e-9182-448e-8abe-59222eff7314")
 			(effects
 				(font
 					(size 1 1)
@@ -1000,7 +1000,7 @@
 			(drill oval 6.3 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1e833062-0617-4ced-ae5e-1e3cac6a57b1")
+			(uuid "5a0d349e-1e2b-4674-a153-b8f2694536f5")
 		)
 	)
 	(footprint "Rumblesan_Panel_Hardware:PanelHole_3.2mm_M3_elongated"
@@ -1013,7 +1013,7 @@
 			(at 0 -4.318 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ad8b9a32-5f5f-40a0-987a-107a2ed38931")
+			(uuid "fcea9907-4a8f-4ba0-a9e0-58eca8b46df3")
 			(effects
 				(font
 					(size 1 1)
@@ -1025,7 +1025,7 @@
 			(at 0 4.318 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e501d1c9-80b1-43d9-8cb7-a11b5e283b30")
+			(uuid "be8bf368-b9aa-4aae-838d-4858c79fe1c1")
 			(effects
 				(font
 					(size 1 1)
@@ -1078,7 +1078,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9506c918-a1ca-41a9-8bce-3470878d681e")
+			(uuid "9174da33-7c2c-401e-a879-d33237eb0a58")
 		)
 		(fp_line
 			(start -1.524 3.45)
@@ -1088,7 +1088,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b668df7-2385-4ca6-90a1-0f5b29c32a5c")
+			(uuid "f083138d-2ffc-419a-8474-2245fb72eb41")
 		)
 		(fp_arc
 			(start -1.524 3.45)
@@ -1099,7 +1099,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "06757950-35e1-4e8b-8c92-aeaee3e02f9a")
+			(uuid "c9a8f29d-4d92-4863-a2d5-0e242952ba64")
 		)
 		(fp_arc
 			(start 1.524 -3.45)
@@ -1110,13 +1110,13 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f12080b4-b843-47cc-8cc6-f9f2b8b1ac90")
+			(uuid "76593854-d164-4682-addd-2e40afb3c2a9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -4.318 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46e6ec6e-5720-4437-8972-a9a195eb4745")
+			(uuid "c3345698-d3e4-4c7d-92ef-7e6aeaf2e33f")
 			(effects
 				(font
 					(size 1 1)
@@ -1130,7 +1130,7 @@
 			(drill oval 6.3 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1e833062-0617-4ced-ae5e-1e3cac6a57b1")
+			(uuid "0a3a61c3-576d-4a0d-8f55-fe9556c4bca6")
 		)
 	)
 	(gr_poly

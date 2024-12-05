@@ -2198,6 +2198,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Rumblesan_Eurorack_Power:Eurorack Power Small"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2219,7 +2321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
+			(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -2442,7 +2544,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:C_Polarized"
+		(symbol "Rumblesan_Standard_Parts:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -2624,7 +2726,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:R"
+		(symbol "Rumblesan_Standard_Parts:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2633,7 +2735,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R?"
-				(at -5.08 0 90)
+				(at -4.318 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2641,7 +2743,7 @@
 				)
 			)
 			(property "Value" "R"
-				(at -2.54 0 90)
+				(at -2.286 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2722,8 +2824,8 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2735,7 +2837,7 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 3.81 270)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -2753,7 +2855,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -2772,7 +2874,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:R_Potentiometer"
+		(symbol "Rumblesan_Standard_Parts:R_Potentiometer"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2794,7 +2896,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+			(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 				(at -10.16 -1.27 90)
 				(effects
 					(font
@@ -2933,7 +3035,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:R_Potentiometer_Dual_Separate"
+		(symbol "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -3674,12 +3776,28 @@
 		(uuid "c948ed4b-1dc9-4ed8-99ed-e39d1ac64ca7")
 	)
 	(no_connect
+		(at 72.39 40.64)
+		(uuid "1491734e-594d-4b24-b475-4d3f0d3892db")
+	)
+	(no_connect
 		(at 248.92 254)
 		(uuid "159e73e5-8abb-4d34-abc9-be0260558cd8")
 	)
 	(no_connect
+		(at 76.2 44.45)
+		(uuid "43255e91-6505-4f28-99ed-80fc093537bb")
+	)
+	(no_connect
 		(at 248.92 237.49)
 		(uuid "43ca47bf-50e3-46c2-9253-57218a3549b6")
+	)
+	(no_connect
+		(at 76.2 83.82)
+		(uuid "58492e1b-109c-481b-9ced-2b752142aca3")
+	)
+	(no_connect
+		(at 72.39 80.01)
+		(uuid "df42c6d1-12d8-4fd6-a7cd-acd74e5eb227")
 	)
 	(no_connect
 		(at 59.69 21.59)
@@ -3951,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 198.12) (xy 313.69 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0387a8-20ad-4dc1-881c-81645dff31f7")
+	)
+	(wire
+		(pts
 			(xy 30.48 105.41) (xy 33.02 105.41)
 		)
 		(stroke
@@ -4101,6 +4229,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 198.12) (xy 328.93 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9b87c5-c6eb-4145-9312-f7e757467e78")
+	)
+	(wire
+		(pts
 			(xy -39.37 275.59) (xy -36.83 275.59)
 		)
 		(stroke
@@ -4168,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "5855a3f5-1242-4500-8e7c-b2128c296edd")
+	)
+	(wire
+		(pts
+			(xy 318.77 198.12) (xy 318.77 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbba3eb-23e0-49cf-bc0b-615bca79caca")
 	)
 	(wire
 		(pts
@@ -4781,6 +4929,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 49.53) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6383bfc-a4a2-424a-ab5b-1cec0b470132")
+	)
+	(wire
+		(pts
 			(xy 30.48 69.85) (xy 33.02 69.85)
 		)
 		(stroke
@@ -4911,6 +5069,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 198.12) (xy 323.85 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdec1fbf-1b60-46fe-b35a-19a40e260571")
+	)
+	(wire
+		(pts
 			(xy 149.86 120.65) (xy 149.86 121.92)
 		)
 		(stroke
@@ -5038,6 +5206,16 @@
 			(type default)
 		)
 		(uuid "df5e89cc-f474-42c1-a409-c46df5b928d6")
+	)
+	(wire
+		(pts
+			(xy 72.39 88.9) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3087300-8c95-455a-b86f-d82d73e0f1fc")
 	)
 	(wire
 		(pts
@@ -6630,7 +6808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer_Dual_Separate")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
 		(at 149.86 116.84 0)
 		(mirror x)
 		(unit 1)
@@ -6843,7 +7021,72 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "power:GND")
+		(at 318.77 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c20a78-f0ce-41aa-a1f9-9a388847c338")
+		(property "Reference" "#PWR056"
+			(at 318.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51d882e5-0723-4808-84d7-bcc6e3806d05")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 160.02 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6938,7 +7181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 176.53 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7186,35 +7429,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer")
-		(at 59.69 36.83 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 72.39 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "192dab4b-9f9b-4ec8-87a2-9413b432d4cd")
-		(property "Reference" "RV3"
-			(at 57.15 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100kA"
-			(at 57.15 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_TTElectronics_PS45_Dual_Frame"
-			(at 49.53 35.56 90)
+		(uuid "11db094d-1b93-43c0-810c-2d1ff45ab8d2")
+		(property "Reference" "#PWR054"
+			(at 72.39 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,8 +7446,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=113"
-			(at 52.07 36.83 90)
+		(property "Value" "GND"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,8 +7463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 59.69 36.83 0)
+		(property "Datasheet" ""
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,19 +7472,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "fdea8d6d-926d-4cd0-98c4-faf78de3a019")
-		)
-		(pin "2"
-			(uuid "e4dcf944-bdac-4de7-84a8-827bd92db66b")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "57843f77-20ac-4ce6-98b5-ebdc07990c49")
+			(uuid "bada673c-c8c5-4123-8cc9-e321ed984138")
 		)
 		(instances
 			(project "bcm-mixer"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
-					(reference "RV3")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7339,7 +7574,76 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 318.77 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "210b505e-e6b4-44b4-93d4-6ac4f5c4d7e6")
+		(property "Reference" "H2"
+			(at 321.31 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 321.31 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 318.77 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 318.77 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c84f66d-2f1a-431f-8e9d-610420243f4a")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 58.42 63.5 0)
 		(mirror x)
 		(unit 1)
@@ -7350,19 +7654,21 @@
 		(fields_autoplaced yes)
 		(uuid "21f9c4b6-e2b7-4f65-9674-54c24a9fef50")
 		(property "Reference" "RV5"
-			(at 52.07 63.5 90)
+			(at 55.88 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100kA"
-			(at 54.61 63.5 90)
+			(at 55.88 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
@@ -7405,6 +7711,71 @@
 			(project "bcm-mixer"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
 					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 328.93 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "230c27e1-cda8-498c-8155-48d9a77c6a04")
+		(property "Reference" "#PWR068"
+			(at 328.93 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3718d43d-e077-45e8-aa44-b3e5d014de6e")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7614,6 +7985,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 313.69 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29895396-ce5d-4302-9f1d-21f773888f6c")
+		(property "Reference" "H1"
+			(at 316.23 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 316.23 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 313.69 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9044659-fc0c-44a9-a931-24e2fb46a685")
+		)
+		(instances
+			(project ""
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 313.69 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b54de64-23db-4b52-8d19-0d6b177f8fba")
+		(property "Reference" "#PWR055"
+			(at 313.69 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04e52aad-649c-462f-9e75-8187ec7513c2")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 109.22 0)
 		(unit 1)
@@ -7679,7 +8184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 175.26 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7923,7 +8428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer_Dual_Separate")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
 		(at 113.03 240.03 0)
 		(mirror x)
 		(unit 1)
@@ -8005,7 +8510,89 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
+		(at 72.39 44.45 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f636030-1ecf-4ce5-b440-c49f49b1bb66")
+		(property "Reference" "RV3"
+			(at 69.85 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100kA"
+			(at 69.85 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_TTElectronics_PS45_Dual_Frame"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual potentiometer, separate units"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7a52a7d-b0fa-4875-9428-fa8f488e6839")
+		)
+		(pin "4"
+			(uuid "f0932663-d047-4613-9466-8e754ed8589b")
+		)
+		(pin "1"
+			(uuid "6fc38044-0a76-45f9-8c62-f18fc056655e")
+		)
+		(pin "2"
+			(uuid "307b5656-003b-4cbb-b624-da6c76873e57")
+		)
+		(pin "5"
+			(uuid "6622a765-6c4c-47f0-ac6e-30e03dd9a963")
+		)
+		(pin "6"
+			(uuid "a021dfde-7dc9-49b4-bb37-249895f5b3e2")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "RV3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 160.02 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8520,7 +9107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C_Polarized")
+		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
 		(at -8.89 281.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8530,7 +9117,7 @@
 		(fields_autoplaced yes)
 		(uuid "56bbcc92-c24c-49b0-8a0f-8f251930f72b")
 		(property "Reference" "C20"
-			(at -5.08 279.7809 0)
+			(at -3.81 279.7809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +9126,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at -5.08 282.3209 0)
+			(at -3.81 282.3209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +9134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 			(at -2.54 281.94 90)
 			(effects
 				(font
@@ -8814,7 +9401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 59.69 25.4 0)
 		(mirror x)
 		(unit 1)
@@ -8825,19 +9412,21 @@
 		(fields_autoplaced yes)
 		(uuid "5da4c19b-c5fa-41b9-81c9-9f7b33289e56")
 		(property "Reference" "RV2"
-			(at 53.34 25.4 90)
+			(at 57.15 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100kA"
-			(at 55.88 25.4 90)
+			(at 57.15 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
@@ -9097,7 +9686,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 224.79 254 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9330,7 +9919,141 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 323.85 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70872af5-a51b-41b5-b92c-51086b9cf160")
+		(property "Reference" "H3"
+			(at 326.39 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 326.39 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 323.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55af7396-c541-4f45-bdc9-9378faee503c")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "731aac51-2f73-416a-ab5c-41bf5b10681c")
+		(property "Reference" "#PWR067"
+			(at 323.85 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5f92a8f-9528-4dc9-9d94-dfdb77774c28")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at -41.91 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9491,6 +10214,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 72.39 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c7d447c-494e-4d4c-8e22-a10462d9bfd0")
+		(property "Reference" "#PWR053"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d9563c-3700-4e72-956f-177db6f6b35d")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 325.12 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9623,7 +10411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 173.99 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9786,7 +10574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 316.23 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10095,7 +10883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer_Dual_Separate")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
 		(at 113.03 262.89 0)
 		(mirror x)
 		(unit 2)
@@ -10177,7 +10965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
 		(at 58.42 74.93 0)
 		(mirror x)
 		(unit 1)
@@ -10185,7 +10973,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9963d5b3-0196-4148-ba4a-18f77c059376")
+		(fields_autoplaced yes)
+		(uuid "9754cb1e-d742-44e5-a461-5fdfe299dab3")
 		(property "Reference" "RV6"
 			(at 55.88 73.6599 0)
 			(effects
@@ -10205,7 +10994,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_TTElectronics_PS45_Dual_Frame"
-			(at 48.26 73.66 90)
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,8 +11002,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.taiwanalpha.com/downloads?target=products&id=113"
-			(at 50.8 74.93 90)
+		(property "Datasheet" "~"
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +11011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "Dual potentiometer, separate units"
 			(at 58.42 74.93 0)
 			(effects
 				(font
@@ -10232,13 +11021,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "16baa92c-587a-4ec1-9422-6d221e212322")
+			(uuid "2024c01a-6d8a-4d75-961c-96d878ce0430")
 		)
-		(pin "2"
-			(uuid "c24e1e28-b37f-424d-836e-0ba1362299df")
+		(pin "4"
+			(uuid "d833eed6-be3b-4fd3-95d5-eb836115e56b")
 		)
 		(pin "1"
-			(uuid "300096a8-68fd-43e4-bdd1-12d8ed3440ad")
+			(uuid "4470ae8d-891e-4b84-86c0-3464a1259701")
+		)
+		(pin "2"
+			(uuid "fc743507-b55e-4708-a34f-1f94712bb5c2")
+		)
+		(pin "5"
+			(uuid "89f0632b-d113-413e-9bf5-97c2a493f7b0")
+		)
+		(pin "6"
+			(uuid "eb142a06-2946-47b4-925b-10653629a2a0")
 		)
 		(instances
 			(project "bcm-mixer"
@@ -10250,7 +11048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 316.23 137.16 270)
 		(mirror x)
 		(unit 1)
@@ -10345,7 +11143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 175.26 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10434,6 +11232,75 @@
 			(project "bcm-mixer"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 328.93 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afef1bfa-b5a4-40e8-a40b-185f55c880a0")
+		(property "Reference" "H4"
+			(at 331.47 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 331.47 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 328.93 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 328.93 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4dc9f72-248f-4547-b560-0646ccfe8150")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10617,7 +11484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 161.29 24.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10712,7 +11579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 224.79 242.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10958,7 +11825,90 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
+		(at 59.69 36.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6fbdc46-c1a5-4af6-afde-9016139896a9")
+		(property "Reference" "RV3"
+			(at 57.15 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100kA"
+			(at 57.15 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_TTElectronics_PS45_Dual_Frame"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual potentiometer, separate units"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e3b31d5-6809-46c6-8c19-f588e6a717ae")
+		)
+		(pin "4"
+			(uuid "d833eed6-be3b-4fd3-95d5-eb836115e56c")
+		)
+		(pin "1"
+			(uuid "c2ffc5f0-c931-4d7c-a10d-da1810430897")
+		)
+		(pin "2"
+			(uuid "2b6b5d63-f089-404f-bd62-b7b61b78de62")
+		)
+		(pin "5"
+			(uuid "89f0632b-d113-413e-9bf5-97c2a493f7b1")
+		)
+		(pin "6"
+			(uuid "eb142a06-2946-47b4-925b-10653629a2a1")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 161.29 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11053,7 +12003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 200.66 33.02 0)
 		(mirror x)
 		(unit 1)
@@ -11606,7 +12556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C_Polarized")
+		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
 		(at -8.89 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11616,7 +12566,7 @@
 		(fields_autoplaced yes)
 		(uuid "e539c5ef-d408-4ed0-92fa-41aaebcef8a7")
 		(property "Reference" "C19"
-			(at -5.08 267.0809 0)
+			(at -3.81 267.0809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +12575,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at -5.08 269.6209 0)
+			(at -3.81 269.6209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,7 +12583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 			(at -2.54 269.24 90)
 			(effects
 				(font
@@ -11703,7 +12653,89 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer_Dual_Separate")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
+		(at 72.39 83.82 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6043ed2-4605-43b1-95bf-3a308e79b203")
+		(property "Reference" "RV6"
+			(at 69.85 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100kA"
+			(at 69.85 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_TTElectronics_PS45_Dual_Frame"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual potentiometer, separate units"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7a52a7d-b0fa-4875-9428-fa8f488e683a")
+		)
+		(pin "4"
+			(uuid "1a3c5be4-fa40-4e64-b795-1282da2920f8")
+		)
+		(pin "1"
+			(uuid "6fc38044-0a76-45f9-8c62-f18fc056655f")
+		)
+		(pin "2"
+			(uuid "307b5656-003b-4cbb-b624-da6c76873e58")
+		)
+		(pin "5"
+			(uuid "77a3ac18-07ab-4f49-b583-00cb83b5493c")
+		)
+		(pin "6"
+			(uuid "07ee4878-4498-460f-bc35-60136998509a")
+		)
+		(instances
+			(project "bcm-mixer"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "RV6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer_Dual_Separate")
 		(at 115.57 121.92 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -11758,22 +12790,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "f7a52a7d-b0fa-4875-9428-fa8f488e6839")
+			(uuid "f7a52a7d-b0fa-4875-9428-fa8f488e683b")
 		)
 		(pin "4"
-			(uuid "d833eed6-be3b-4fd3-95d5-eb836115e56b")
+			(uuid "d833eed6-be3b-4fd3-95d5-eb836115e56d")
 		)
 		(pin "1"
-			(uuid "6fc38044-0a76-45f9-8c62-f18fc056655e")
+			(uuid "6fc38044-0a76-45f9-8c62-f18fc0566560")
 		)
 		(pin "2"
-			(uuid "307b5656-003b-4cbb-b624-da6c76873e57")
+			(uuid "307b5656-003b-4cbb-b624-da6c76873e59")
 		)
 		(pin "5"
-			(uuid "89f0632b-d113-413e-9bf5-97c2a493f7b0")
+			(uuid "89f0632b-d113-413e-9bf5-97c2a493f7b2")
 		)
 		(pin "6"
-			(uuid "eb142a06-2946-47b4-925b-10653629a2a0")
+			(uuid "eb142a06-2946-47b4-925b-10653629a2a2")
 		)
 		(instances
 			(project ""
@@ -11785,7 +12817,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at -41.91 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12164,7 +13196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 199.39 71.12 0)
 		(mirror x)
 		(unit 1)

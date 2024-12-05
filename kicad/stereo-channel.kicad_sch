@@ -267,7 +267,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:C"
+		(symbol "Rumblesan_Standard_Parts:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -290,7 +290,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 				(at 5.715 1.27 90)
 				(effects
 					(font
@@ -418,7 +418,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:C_Polarized"
+		(symbol "Rumblesan_Standard_Parts:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -600,7 +600,7 @@
 				)
 			)
 		)
-		(symbol "Standard_Parts:R"
+		(symbol "Rumblesan_Standard_Parts:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -609,7 +609,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R?"
-				(at -5.08 0 90)
+				(at -4.318 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -617,7 +617,7 @@
 				)
 			)
 			(property "Value" "R"
-				(at -2.54 0 90)
+				(at -2.286 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -698,8 +698,8 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -711,7 +711,7 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 3.81 270)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -729,7 +729,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -1648,7 +1648,7 @@
 		(uuid "d726c900-6beb-41ba-ab31-db89f77a2b2a")
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 120.65 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1809,7 +1809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 74.93 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1906,7 +1906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C_Polarized")
+		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
 		(at 86.36 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1931,7 +1931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 			(at 86.36 69.85 90)
 			(effects
 				(font
@@ -2001,7 +2001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 118.11 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2087,7 +2087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 101.6 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2248,7 +2248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 77.47 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2345,7 +2345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 195.58 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2433,7 +2433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 104.14 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2834,7 +2834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 195.58 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3140,7 +3140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C_Polarized")
+		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
 		(at 88.9 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3165,7 +3165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 			(at 88.9 130.81 90)
 			(effects
 				(font
@@ -3367,7 +3367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 120.65 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3453,7 +3453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Standard_Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 118.11 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
