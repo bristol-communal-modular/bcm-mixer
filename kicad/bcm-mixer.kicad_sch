@@ -2321,7 +2321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
+			(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_Power_IDC-Header_2x05_P2.54mm_Vertical"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -5489,7 +5489,6 @@
 	)
 	(label "CHAN2_GAIN_CCW_MAIN"
 		(at 115.57 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5500,7 +5499,6 @@
 	)
 	(label "CHAN1_INPUT_MAIN"
 		(at 256.54 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5511,7 +5509,6 @@
 	)
 	(label "CHAN1_LEVEL_CENTER_MAIN"
 		(at 116.84 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5522,7 +5519,6 @@
 	)
 	(label "CHAN1_PAN_CCW_MAIN"
 		(at 170.18 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5533,7 +5529,6 @@
 	)
 	(label "CHAN2_GAIN_CCW_MAIN"
 		(at 256.54 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5544,7 +5539,6 @@
 	)
 	(label "MAIN_R_LEVEL_CW_MAIN"
 		(at 175.26 247.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5555,7 +5549,6 @@
 	)
 	(label "CHAN3_L_INPUT_MAIN"
 		(at 55.88 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5566,7 +5559,6 @@
 	)
 	(label "MAIN_R_LEVEL_CW_CTRL"
 		(at 113.03 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5577,7 +5569,6 @@
 	)
 	(label "CHAN3_L_INPUT_CTRL"
 		(at 33.02 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5588,7 +5579,6 @@
 	)
 	(label "CHAN1_GAIN_CENTER_CTRL"
 		(at 64.77 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5599,7 +5589,6 @@
 	)
 	(label "R_OUT_CTRL"
 		(at 196.85 303.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5610,7 +5599,6 @@
 	)
 	(label "CHAN1_PAN_CW_CTRL"
 		(at 200.66 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5621,7 +5609,6 @@
 	)
 	(label "MAIN_L_LEVEL_CW_MAIN"
 		(at 212.09 311.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5632,7 +5619,6 @@
 	)
 	(label "CHAN2_LEVEL_CENTER_MAIN"
 		(at 256.54 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5643,7 +5629,6 @@
 	)
 	(label "CHAN2_PAN_CW_MAIN"
 		(at 168.91 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5654,7 +5639,6 @@
 	)
 	(label "CHAN2_GAIN_CCW_CTRL"
 		(at 240.03 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5665,7 +5649,6 @@
 	)
 	(label "L_OUT_MAIN"
 		(at 231.14 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5676,7 +5659,6 @@
 	)
 	(label "CHAN1_PAN_CCW_CTRL"
 		(at 200.66 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5687,7 +5669,6 @@
 	)
 	(label "CHAN2_GAIN_CENTER_CTRL"
 		(at 63.5 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5698,7 +5679,6 @@
 	)
 	(label "CHAN3_L_SIGNAL_CTRL"
 		(at 120.65 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5709,7 +5689,6 @@
 	)
 	(label "CHAN2_LEVEL_CW_CTRL"
 		(at 62.23 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5720,7 +5699,6 @@
 	)
 	(label "CHAN1_PAN_CW_MAIN"
 		(at 170.18 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5731,7 +5709,6 @@
 	)
 	(label "CHAN2_LEVEL_CW_CTRL"
 		(at 240.03 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5742,7 +5719,6 @@
 	)
 	(label "MAIN_R_LEVEL_CENTER_CTRL"
 		(at 196.85 308.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5753,7 +5729,6 @@
 	)
 	(label "MAIN_L_LEVEL_CW_MAIN"
 		(at 175.26 255.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,7 +5739,6 @@
 	)
 	(label "MAIN_L_LEVEL_CENTER_MAIN"
 		(at 212.09 306.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5775,7 +5749,6 @@
 	)
 	(label "CHAN1_GAIN_CCW_MAIN"
 		(at 256.54 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5786,7 +5759,6 @@
 	)
 	(label "CHAN1_PAN_CCW_MAIN"
 		(at 256.54 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5797,7 +5769,6 @@
 	)
 	(label "CHAN2_LEVEL_CW_MAIN"
 		(at 115.57 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5808,7 +5779,6 @@
 	)
 	(label "CHAN1_GAIN_CCW_MAIN"
 		(at 116.84 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5819,7 +5789,6 @@
 	)
 	(label "CHAN1_PAN_CW_MAIN"
 		(at 256.54 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5830,7 +5799,6 @@
 	)
 	(label "CHAN3_R_SIGNAL_CTRL"
 		(at -88.9 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5841,7 +5809,6 @@
 	)
 	(label "CHAN3_R_SIGNAL_CTRL"
 		(at 154.94 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5852,7 +5819,6 @@
 	)
 	(label "CHAN2_PAN_CW_CTRL"
 		(at 240.03 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5863,7 +5829,6 @@
 	)
 	(label "CHAN1_GAIN_CCW_CTRL"
 		(at 240.03 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5874,7 +5839,6 @@
 	)
 	(label "MAIN_L_LEVEL_CENTER_CTRL"
 		(at 118.11 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5885,7 +5849,6 @@
 	)
 	(label "CHAN1_LEVEL_CW_CTRL"
 		(at 63.5 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5896,7 +5859,6 @@
 	)
 	(label "CHAN2_PAN_CW_MAIN"
 		(at 256.54 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5907,7 +5869,6 @@
 	)
 	(label "CHAN1_LEVEL_CW_MAIN"
 		(at 256.54 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5918,7 +5879,6 @@
 	)
 	(label "CHAN2_PAN_CCW_MAIN"
 		(at 168.91 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5929,7 +5889,6 @@
 	)
 	(label "CHAN1_GAIN_CENTER_CTRL"
 		(at 240.03 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5940,7 +5899,6 @@
 	)
 	(label "CHAN1_INPUT_CTRL"
 		(at 34.29 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5951,7 +5909,6 @@
 	)
 	(label "CHAN2_LEVEL_CENTER_MAIN"
 		(at 115.57 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5962,7 +5919,6 @@
 	)
 	(label "CHAN3_L_OUTPUT_CTRL"
 		(at -88.9 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5973,7 +5929,6 @@
 	)
 	(label "CHAN3_L_OUTPUT_MAIN"
 		(at -68.58 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5984,7 +5939,6 @@
 	)
 	(label "CHAN3_R_INPUT_MAIN"
 		(at -68.58 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5995,7 +5949,6 @@
 	)
 	(label "CHAN1_LEVEL_CENTER_MAIN"
 		(at 256.54 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6006,7 +5959,6 @@
 	)
 	(label "CHAN2_PAN_CW_CTRL"
 		(at 199.39 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6017,7 +5969,6 @@
 	)
 	(label "CHAN3_L_OUTPUT_CTRL"
 		(at 115.57 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6028,7 +5979,6 @@
 	)
 	(label "CHAN3_R_OUTPUT_MAIN"
 		(at 90.17 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6039,7 +5989,6 @@
 	)
 	(label "CHAN2_GAIN_CENTER_CTRL"
 		(at 240.03 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6050,7 +5999,6 @@
 	)
 	(label "CHAN3_R_INPUT_MAIN"
 		(at 55.88 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6061,7 +6009,6 @@
 	)
 	(label "CHAN2_GAIN_CENTER_MAIN"
 		(at 115.57 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6072,7 +6019,6 @@
 	)
 	(label "CHAN1_LEVEL_CW_CTRL"
 		(at 240.03 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6083,7 +6029,6 @@
 	)
 	(label "CHAN2_GAIN_CCW_CTRL"
 		(at 63.5 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6094,7 +6039,6 @@
 	)
 	(label "CHAN3_L_SIGNAL_CTRL"
 		(at -88.9 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6105,7 +6049,6 @@
 	)
 	(label "CHAN3_R_OUTPUT_CTRL"
 		(at 149.86 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6116,7 +6059,6 @@
 	)
 	(label "MAIN_L_LEVEL_CW_CTRL"
 		(at 113.03 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6127,7 +6069,6 @@
 	)
 	(label "CHAN3_R_OUTPUT_MAIN"
 		(at -68.58 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6138,7 +6079,6 @@
 	)
 	(label "CHAN3_R_INPUT_CTRL"
 		(at 33.02 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6149,7 +6089,6 @@
 	)
 	(label "L_OUT_MAIN"
 		(at 212.09 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6160,7 +6099,6 @@
 	)
 	(label "CHAN2_PAN_CCW_CTRL"
 		(at 199.39 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6171,7 +6109,6 @@
 	)
 	(label "CHAN1_GAIN_CENTER_MAIN"
 		(at 116.84 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6182,7 +6119,6 @@
 	)
 	(label "CHAN1_PAN_CW_CTRL"
 		(at 240.03 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6193,7 +6129,6 @@
 	)
 	(label "CHAN3_L_INPUT_MAIN"
 		(at -68.58 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6204,7 +6139,6 @@
 	)
 	(label "CHAN1_PAN_CCW_CTRL"
 		(at 240.03 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6215,7 +6149,6 @@
 	)
 	(label "CHAN3_L_OUTPUT_MAIN"
 		(at 90.17 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6226,7 +6159,6 @@
 	)
 	(label "L_OUT_CTRL"
 		(at 242.57 240.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6237,7 +6169,6 @@
 	)
 	(label "CHAN2_LEVEL_CENTER_CTRL"
 		(at 62.23 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6248,7 +6179,6 @@
 	)
 	(label "CHAN3_R_OUTPUT_CTRL"
 		(at -88.9 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6259,7 +6189,6 @@
 	)
 	(label "MAIN_R_LEVEL_CENTER_MAIN"
 		(at 175.26 250.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6270,7 +6199,6 @@
 	)
 	(label "R_OUT_CTRL"
 		(at 242.57 256.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6281,7 +6209,6 @@
 	)
 	(label "CHAN2_PAN_CCW_CTRL"
 		(at 240.03 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6292,7 +6219,6 @@
 	)
 	(label "CHAN1_GAIN_CCW_CTRL"
 		(at 64.77 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6303,7 +6229,6 @@
 	)
 	(label "CHAN3_R_INPUT_CTRL"
 		(at -88.9 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6314,7 +6239,6 @@
 	)
 	(label "CHAN3_L_INPUT_CTRL"
 		(at -88.9 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6325,7 +6249,6 @@
 	)
 	(label "CHAN1_INPUT_CTRL"
 		(at 240.03 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6336,7 +6259,6 @@
 	)
 	(label "CHAN2_LEVEL_CW_MAIN"
 		(at 256.54 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6347,7 +6269,6 @@
 	)
 	(label "CHAN1_INPUT_MAIN"
 		(at 116.84 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6358,7 +6279,6 @@
 	)
 	(label "L_OUT_CTRL"
 		(at 196.85 300.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6369,7 +6289,6 @@
 	)
 	(label "R_OUT_MAIN"
 		(at 212.09 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6380,7 +6299,6 @@
 	)
 	(label "MAIN_R_LEVEL_CENTER_MAIN"
 		(at 212.09 308.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6391,7 +6309,6 @@
 	)
 	(label "CHAN1_LEVEL_CENTER_CTRL"
 		(at 63.5 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6402,7 +6319,6 @@
 	)
 	(label "CHAN2_INPUT_CTRL"
 		(at 33.02 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6413,7 +6329,6 @@
 	)
 	(label "MAIN_L_LEVEL_CENTER_MAIN"
 		(at 175.26 257.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6424,7 +6339,6 @@
 	)
 	(label "MAIN_R_LEVEL_CW_MAIN"
 		(at 212.09 313.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6435,7 +6349,6 @@
 	)
 	(label "CHAN2_PAN_CCW_MAIN"
 		(at 256.54 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6446,7 +6359,6 @@
 	)
 	(label "CHAN2_INPUT_MAIN"
 		(at 115.57 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6457,7 +6369,6 @@
 	)
 	(label "CHAN2_INPUT_MAIN"
 		(at 256.54 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6468,7 +6379,6 @@
 	)
 	(label "MAIN_R_LEVEL_CENTER_CTRL"
 		(at 118.11 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6479,7 +6389,6 @@
 	)
 	(label "CHAN2_LEVEL_CENTER_CTRL"
 		(at 240.03 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6490,7 +6399,6 @@
 	)
 	(label "CHAN1_LEVEL_CENTER_CTRL"
 		(at 240.03 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6501,7 +6409,6 @@
 	)
 	(label "MAIN_L_LEVEL_CW_CTRL"
 		(at 196.85 311.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6512,7 +6419,6 @@
 	)
 	(label "MAIN_L_LEVEL_CENTER_CTRL"
 		(at 196.85 306.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6523,7 +6429,6 @@
 	)
 	(label "CHAN1_GAIN_CENTER_MAIN"
 		(at 256.54 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6534,7 +6439,6 @@
 	)
 	(label "CHAN2_GAIN_CENTER_MAIN"
 		(at 256.54 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6545,7 +6449,6 @@
 	)
 	(label "CHAN1_LEVEL_CW_MAIN"
 		(at 116.84 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6556,7 +6459,6 @@
 	)
 	(label "CHAN2_INPUT_CTRL"
 		(at 240.03 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6567,7 +6469,6 @@
 	)
 	(label "R_OUT_MAIN"
 		(at 231.14 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6578,7 +6479,6 @@
 	)
 	(label "MAIN_R_LEVEL_CW_CTRL"
 		(at 196.85 313.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8845,7 +8745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
+		(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_Power_IDC-Header_2x05_P2.54mm_Vertical"
 			(at -58.42 280.67 0)
 			(effects
 				(font

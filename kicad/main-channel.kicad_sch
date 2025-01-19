@@ -1792,7 +1792,6 @@
 	(hierarchical_label "L_LEVEL_POT_CENTER"
 		(shape input)
 		(at 82.55 45.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,7 +1803,6 @@
 	(hierarchical_label "R_LEVEL_POT_CW"
 		(shape input)
 		(at 81.28 97.79 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1816,7 +1814,6 @@
 	(hierarchical_label "L_LEVEL_POT_CW"
 		(shape input)
 		(at 78.74 45.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1828,7 +1825,6 @@
 	(hierarchical_label "R_LEVEL_POT_CENTER"
 		(shape input)
 		(at 85.09 97.79 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1840,7 +1836,6 @@
 	(hierarchical_label "R_OUT"
 		(shape input)
 		(at 125.73 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1847,6 @@
 	(hierarchical_label "L_OUT"
 		(shape input)
 		(at 123.19 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,7 +1858,6 @@
 	(hierarchical_label "R_IN"
 		(shape input)
 		(at 55.88 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +1869,6 @@
 	(hierarchical_label "L_IN"
 		(shape input)
 		(at 54.61 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
