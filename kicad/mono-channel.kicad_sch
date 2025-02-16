@@ -1563,6 +1563,36 @@
 		)
 		(uuid "fb0b7c36-1e12-4f0b-af6e-ecadbce53baa")
 	)
+	(text "100k gain pot with 10k resistors\nmeans 11 times gain\nequals 20.8 db"
+		(exclude_from_sim no)
+		(at 107.188 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25eac676-442f-48d1-9751-74d5a7ff7980")
+	)
+	(text "lowpass filter freq 72kHz"
+		(exclude_from_sim no)
+		(at 189.484 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c70c9ce5-24b7-45b6-b84a-c039b2de3b70")
+	)
+	(text "lowpass filter freq\n723kHz at min gain\n65kHz at max gain"
+		(exclude_from_sim no)
+		(at 118.364 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8c7d6dd-913e-4cef-8557-bbf9644dea1b")
+	)
 	(hierarchical_label "LEVEL_POT_CENTER"
 		(shape input)
 		(at 133.35 86.36 180)
@@ -2320,7 +2350,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 140.97 82.55 90)
 			(effects
 				(font
@@ -2473,24 +2503,24 @@
 	)
 	(symbol
 		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
-		(at 58.42 77.47 270)
+		(at 58.42 77.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67e15cef-93e2-425c-8477-d1209993270d")
 		(property "Reference" "C1"
-			(at 59.309 69.85 90)
+			(at 57.531 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 59.309 72.39 90)
+		(property "Value" "10uF"
+			(at 57.531 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2555,7 @@
 			)
 		)
 		(property "Spec" "electrolytic"
-			(at 54.61 81.28 90)
+			(at 62.23 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2564,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 66.04 81.28 90)
+			(at 50.8 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2573,7 @@
 			)
 		)
 		(property "Voltage" "50v"
-			(at 62.23 81.28 90)
+			(at 54.61 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2618,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "10k"
 			(at 69.85 73.66 90)
 			(effects
 				(font
@@ -2917,7 +2947,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 161.29 72.39 90)
 			(effects
 				(font

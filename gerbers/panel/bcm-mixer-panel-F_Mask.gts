@@ -1,18 +1,19 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
-%TF.CreationDate,2024-12-10T23:30:40+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
+%TF.CreationDate,2025-02-16T22:07:38+00:00*%
 %TF.ProjectId,bcm-mixer-panel,62636d2d-6d69-4786-9572-2d70616e656c,rev01*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.6) date 2024-12-10 23:30:40*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-02-16 22:07:38*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
 %ADD10C,0.010000*%
 %ADD11O,7.000000X4.000000*%
+%ADD12C,3.200000*%
 G04 APERTURE END LIST*
 D10*
 %TO.C,Ref\u002A\u002A*%
@@ -1576,5 +1577,9 @@ X39100000Y-45000000D03*
 %TD*%
 %TO.C,REF\u002A\u002A*%
 X39100000Y-167500000D03*
+%TD*%
+D12*
+%TO.C,H5*%
+X83500000Y-143000000D03*
 %TD*%
 M02*

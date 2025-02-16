@@ -1961,7 +1961,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 93.98 93.98 90)
 			(effects
 				(font
@@ -2162,7 +2162,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "22pF"
 			(at 111.76 21.59 90)
 			(effects
 				(font
@@ -2248,7 +2248,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 114.3 86.36 90)
 			(effects
 				(font
@@ -2654,7 +2654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" "ceramic C0G"
+		(property "Spec" "ceramic X7R"
 			(at 219.71 93.98 90)
 			(effects
 				(font
@@ -3027,7 +3027,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "22pF"
 			(at 67.31 71.12 90)
 			(effects
 				(font
@@ -3217,7 +3217,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "22pF"
 			(at 114.3 73.66 90)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 111.76 34.29 90)
 			(effects
 				(font
@@ -3567,7 +3567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Spec" "ceramic C0G"
+		(property "Spec" "ceramic X7R"
 			(at 219.71 106.68 90)
 			(effects
 				(font
@@ -3684,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "22pF"
 			(at 66.04 19.05 90)
 			(effects
 				(font
@@ -3836,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 91.44 41.91 90)
 			(effects
 				(font
